@@ -4,13 +4,9 @@ module.exports = {
     themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'Guide', link: '/guide/' },
+          { text: 'Page', link: '/page/' },
           { text: 'External', link: 'https://google.com' },
         ]
     },
-    plugins: [ 
-      '@vuepress/pagination', { 
-        postsFilter: (({ type }) => type === 'post') 
-      }
-    ] 
+    plugins: [['@vuepress/pagination']] 
  }
