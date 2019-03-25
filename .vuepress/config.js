@@ -8,5 +8,10 @@ module.exports = {
           { text: 'External', link: 'https://google.com' },
         ]
     },
-    plugins: [['@vuepress/pagination']] 
+    plugins: [
+      [
+        '@vuepress/pagination',
+        { postsFilter: (type => type.frontmatter.type === 'post') }
+      ]
+    ] 
  }
