@@ -6,7 +6,7 @@ View the example by append [/page/](/page/) to the local webserver's path.
 ## Folder structure
 The plugin is currently hardcoded to only paginate posts in a `page` folder.  The resulting paginations will be rendered at [/page/](/page/) and [/page/#](/page/2).
 
-## Setup your config.js
+## Setup the config.js
 Enable the plugin in the `.vuepress/config.js` file.  The default postsFilter will filter out all of the posts from the page folder.  Removing an extra set of parenthesis makes the pagination work correctly.
 
 ## Creating a component
