@@ -1,4 +1,4 @@
-# pagination-example
+# vuepress-pagination-example
 An example for using Vuepress pagination plugin.  This plugin will split posts into groups of 10 to be displayed on the page one at a time.  Urls are generated for the next and previous groupings.
 
 View the example by append [/page/](/page/) to the local webserver's path.
