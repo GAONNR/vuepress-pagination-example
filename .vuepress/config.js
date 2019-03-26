@@ -11,7 +11,12 @@ module.exports = {
     plugins: [
       [
         '@vuepress/pagination',
+        // The default postsFilter has extra paranthesis that make it not work
         { postsFilter: (type => type.frontmatter.type === 'post') }
+        // A sortFilter can also be used
+
+        // Plugin is hardcoded to 10 posts per pagination page
+        // Plugin is hardcoded to paginate posts in the 'page' folder
       ]
     ] 
  }
